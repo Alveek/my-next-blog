@@ -46,13 +46,11 @@ export default function CodewarsIntro() {
 					></meta>
 					<meta property="og:type" content="article"></meta>
 				</Head>
-
 				<Box pt="5">
 					<NextLink href="/">
 						<Link>На главную</Link>
 					</NextLink>
 				</Box>
-
 				<Heading as="h1" marginY={7} size="2xl" textAlign="center">
 					Codewars: обзор и рекомендации
 				</Heading>
@@ -81,7 +79,6 @@ export default function CodewarsIntro() {
 					переводами самых популярных задач, но это в случае, если будет много
 					желающих.
 				</Text>
-
 				<Heading as="h2" size="lg" mt={10}>
 					Регистрация
 				</Heading>
@@ -89,7 +86,6 @@ export default function CodewarsIntro() {
 					Впервые попав на этот сайт, вам предлагают пройти небольшое задание.
 					(Хотя, я не уверен, возможно его можно обойти.)
 				</Text>
-
 				<Box maxW="800px" mx="auto">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(1).jpg"
@@ -98,13 +94,11 @@ export default function CodewarsIntro() {
 						alt="Приветственная страница Codewars"
 					/>
 				</Box>
-
 				<Text mt={7}>
 					Я выбираю <Code colorScheme={codeColor}>JavaScript</Code>. Появляется
 					окно, где мне предлагается выяснить, почему представленный код не
 					работает должным образом.
 				</Text>
-
 				<Box maxW="800px" mx="auto">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(2).jpg"
@@ -113,7 +107,6 @@ export default function CodewarsIntro() {
 						alt="Тестовая задача"
 					/>
 				</Box>
-
 				<Text mt={7}>
 					В этом коде мы видим функцию{" "}
 					<Code colorScheme={codeColor}>multiply</Code>, суть которой умножить
@@ -121,7 +114,6 @@ export default function CodewarsIntro() {
 					какой-то результат, должно использоваться ключевое слово{" "}
 					<Code colorScheme={codeColor}>return</Code>.
 				</Text>
-
 				<SyntaxHighlighter
 					customStyle={{
 						padding: "20px",
@@ -134,19 +126,11 @@ export default function CodewarsIntro() {
 	return a * b;
 }`}
 				</SyntaxHighlighter>
-
 				<Text mt={7}>
 					После того, как я исправил код, я нажимаю <b>Submit</b> для запуска
 					тестов. Итак, мой код прошел все тесты и далее предлагается завести
 					учетную запись или подключить свой <b>GitHub</b> аккаунт.
 				</Text>
-
-				<Box maxW="800px" mx="auto">
-					<Image
-						src="https://480402.selcdn.ru/links/posts/codewars-intro/codewars-intro.gif"
-						alt="Пример прохождения тестовой задачи"
-					/>
-				</Box>
 
 				<Box
 					mt={7}
@@ -168,17 +152,14 @@ export default function CodewarsIntro() {
 						достаточно просто войти под учетной записи GitHub.)
 					</Text>
 				</Box>
-
 				<Text mt={7}>
 					По сути, это задание является наглядной демонстрацией (в упрощенном
 					варианте), как происходит решение задач на сайте <b>Codewars</b>. Но я
 					расскажу еще немного подробнее.
 				</Text>
-
 				<Heading as="h2" size="lg" mt={10}>
 					Интерфейс
 				</Heading>
-
 				<Text>
 					Итак, войдя под своей учетной записью вы попадаете на страницу, где
 					вам будет предложена следующая задача для решения. Но лучше перейти к
@@ -191,7 +172,6 @@ export default function CodewarsIntro() {
 					</em>
 					.
 				</Text>
-
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(3).jpg"
@@ -200,11 +180,9 @@ export default function CodewarsIntro() {
 						alt="Главная странца Codewars"
 					/>
 				</Box>
-
 				<Text>
 					Итак, нажали на <b>Kata</b> и появляется страница с задачами:
 				</Text>
-
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Untitled.jpg"
@@ -213,7 +191,6 @@ export default function CodewarsIntro() {
 						alt="Страница с задачи"
 					/>
 				</Box>
-
 				<Text>
 					По умолчанию здесь собраны последние каты. В разделе <b>Diffuculty</b>{" "}
 					вы можете выбрать для себя подходящий уровень сложности. Всего 8
@@ -221,13 +198,11 @@ export default function CodewarsIntro() {
 					<b>kyu</b> (кю) - также взят из карате и означает сколько степеней еще
 					осталось до мастера (1 dan).
 				</Text>
-
 				<Text>
 					Если вы начинающий, то для начала решайте на сложности 8 kyu. После
 					того, как вы освоитесь на этом сайте и 8 kyu задачи покажутся легкими,
 					рекомендую сделать следующую настройку отображения задач:
 				</Text>
-
 				<UnorderedList pl="5" mb="10">
 					<ListItem>
 						<b>Sort by:</b> Most Completed (наиболее решенные)
@@ -246,7 +221,6 @@ export default function CodewarsIntro() {
 						<b>Difficulty:</b> All - сложность любая
 					</ListItem>
 				</UnorderedList>
-
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(15).jpg"
@@ -255,19 +229,16 @@ export default function CodewarsIntro() {
 						alt="Пример применения фильтра для поиска простых задач"
 					/>
 				</Box>
-
 				<Text>
 					Добавьте эту страницу в закладки. Так не придется каждый раз
 					выставлять эти настройки и всегда будет предложена актуальная для вас
 					задача.
 				</Text>
-
 				<Text>
 					Решать задачи, с которыми справились большинство участников - это
 					почти гарантия, что в ней отсутствуют недочеты, а также то, что вы её
 					скорее всего решите сами, и как следствие - захотите ещё.
 				</Text>
-
 				<Text>
 					Нажав на заголовок задачи, вы попадете на страницу с её описанием:
 				</Text>
