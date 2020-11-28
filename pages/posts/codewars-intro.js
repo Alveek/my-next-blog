@@ -4,6 +4,7 @@ import {
 	Box,
 	Code,
 	Heading,
+	Image,
 	Link,
 	List,
 	ListItem,
@@ -12,7 +13,7 @@ import {
 	UnorderedList,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
-import Image from "next/image";
+import NextImage from "next/image";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { gruvboxDark } from "react-syntax-highlighter/dist/cjs/styles/hljs";
 
@@ -83,7 +84,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto">
-					<Image
+					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(1).jpg"
 						width="800px"
 						height="476px"
@@ -98,7 +99,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto">
-					<Image
+					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(2).jpg"
 						width="848px"
 						height="621px"
@@ -136,8 +137,6 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto">
 					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/codewars-intro.gif"
-						width="1097px"
-						height="570px"
 						alt="Пример прохождения тестовой задачи"
 					/>
 				</Box>
@@ -187,7 +186,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<Image
+					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(3).jpg"
 						width="1506px"
 						height="474px"
@@ -200,7 +199,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<Image
+					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Untitled.jpg"
 						width="1120px"
 						height="695px"
@@ -242,7 +241,7 @@ export default function CodewarsIntro() {
 				</UnorderedList>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<Image
+					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(15).jpg"
 						width="1125px"
 						height="673px"
