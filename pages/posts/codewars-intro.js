@@ -22,7 +22,14 @@ export default function CodewarsIntro() {
 
 	return (
 		<Box as="main" bg="#F7FAFC">
-			<Box maxW="1080px" px="8" mx="auto" pb="16" boxShadow="lg" bg="white">
+			<Box
+				maxW="1080px"
+				px={{ base: 5, md: 8 }}
+				mx="auto"
+				pb="16"
+				boxShadow="lg"
+				bg="white"
+			>
 				<Head>
 					<title>Codewars: обзор и рекомендации</title>
 					<meta
