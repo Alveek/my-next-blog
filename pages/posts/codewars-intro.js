@@ -14,7 +14,7 @@ import {
 import NextLink from "next/link";
 import Image from "next/image";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { gruvboxDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { gruvboxDark } from "react-syntax-highlighter/dist/cjs/styles/hljs";
 
 export default function CodewarsIntro() {
 	const codeColor = "teal";
