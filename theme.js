@@ -4,7 +4,8 @@ const theme = extendTheme({
 	components: {
 		Link: {
 			baseStyle: {
-				color: "pink.400",
+				color: "pink.500",
+				fontWeight: "bold",
 				// fontSize: "35px",
 			},
 		},
