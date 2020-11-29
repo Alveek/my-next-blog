@@ -22,31 +22,31 @@ export default function CodewarsIntro() {
 
 	return (
 		<Box as="main" bg="#F7FAFC">
+			<Head>
+				<title>Codewars: обзор и рекомендации</title>
+				<meta
+					name="description"
+					content="Codewars - это отличное место, где можно отточить основы программирования и повысить уровень решения задач. В этой статье я расскажу всё необходимое, чтобы чувствовать себя уверенее, работая с этим сайтом."
+				></meta>
+				<meta
+					property="og:title"
+					content="Codewars: обзор и рекомендации"
+				></meta>
+				<meta
+					property="og:description"
+					content="Codewars - это отличное место, где можно отточить основы программирования и повысить уровень решения задач. В этой статье я расскажу всё необходимое, чтобы чувствовать себя уверенее, работая с этим сайтом."
+				></meta>
+				<meta property="og:type" content="article"></meta>
+			</Head>
 			<Box
 				maxW="1080px"
 				px={{ base: 5, md: 8 }}
 				mx="auto"
-				pb="16"
+				py="10"
 				boxShadow="lg"
 				bg="white"
 			>
-				<Head>
-					<title>Codewars: обзор и рекомендации</title>
-					<meta
-						name="description"
-						content="Codewars - это отличное место, где можно отточить основы программирования и повысить уровень решения задач. В этой статье я расскажу всё необходимое, чтобы чувствовать себя уверенее, работая с этим сайтом."
-					></meta>
-					<meta
-						property="og:title"
-						content="Codewars: обзор и рекомендации"
-					></meta>
-					<meta
-						property="og:description"
-						content="Codewars - это отличное место, где можно отточить основы программирования и повысить уровень решения задач. В этой статье я расскажу всё необходимое, чтобы чувствовать себя уверенее, работая с этим сайтом."
-					></meta>
-					<meta property="og:type" content="article"></meta>
-				</Head>
-				<Box pt="5">
+				<Box>
 					<NextLink href="/">
 						<Link>На главную</Link>
 					</NextLink>
