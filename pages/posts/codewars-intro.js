@@ -20,7 +20,7 @@ export default function CodewarsIntro() {
 	const codeColor = "teal";
 
 	return (
-		<Box as="main" bg="#F7FAFC">
+		<Box as="main">
 			<Head>
 				<title>Codewars: обзор и рекомендации</title>
 				<meta
@@ -43,7 +43,6 @@ export default function CodewarsIntro() {
 				mx="auto"
 				py="10"
 				boxShadow="lg"
-				bg="white"
 			>
 				<Box>
 					<NextLink href="/">

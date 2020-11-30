@@ -1,10 +1,12 @@
 import Head from "next/head";
 import NextLink from "next/link";
-import { Button, Box, Heading, Link, Code } from "@chakra-ui/react";
+import { Button, Box, Heading, Link, Code, Icon } from "@chakra-ui/react";
+import Menu from "../components/Menu";
+import { FaPencilAlt } from "react-icons/fa";
 
 export default function Home() {
 	return (
-		<Box as="main" bg="#F7FAFC">
+		<Box as="main">
 			<Head>
 				<title>Главная страница</title>
 				<meta name="description" content="Крутой сайт о том о сем"></meta>
@@ -19,10 +21,15 @@ export default function Home() {
 				mx="auto"
 				py="10"
 				boxShadow="lg"
-				bg="white"
 			>
-				<Heading as="h1" size="2xl" textAlign="center">
-					Home Page
+				<Heading
+					fontFamily="Nerko One"
+					fontWeight="400"
+					as="h1"
+					size="3xl"
+					textAlign="center"
+				>
+					A. K. Notes <Icon as={FaPencilAlt} />
 				</Heading>
 
 				<Heading as="h2" size="lg">
