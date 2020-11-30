@@ -4,7 +4,6 @@ import {
 	Box,
 	Code,
 	Heading,
-	Image,
 	Link,
 	List,
 	ListItem,
@@ -13,7 +12,7 @@ import {
 	UnorderedList,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
-import NextImage from "next/image";
+import Image from "next/image";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { gruvboxDark } from "react-syntax-highlighter/dist/cjs/styles/hljs";
 
@@ -87,7 +86,7 @@ export default function CodewarsIntro() {
 					(Хотя, я не уверен, возможно его можно обойти.)
 				</Text>
 				<Box maxW="800px" mx="auto">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(1).jpg"
 						width="800px"
 						height="476px"
@@ -100,7 +99,7 @@ export default function CodewarsIntro() {
 					работает должным образом.
 				</Text>
 				<Box maxW="800px" mx="auto">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(2).jpg"
 						width={848}
 						height={621}
@@ -173,7 +172,7 @@ export default function CodewarsIntro() {
 					.
 				</Text>
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(3).jpg"
 						width={1506}
 						height={474}
@@ -184,7 +183,7 @@ export default function CodewarsIntro() {
 					Итак, нажали на <b>Kata</b> и появляется страница с задачами:
 				</Text>
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Untitled.jpg"
 						width={1120}
 						height={695}
@@ -222,7 +221,7 @@ export default function CodewarsIntro() {
 					</ListItem>
 				</UnorderedList>
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(15).jpg"
 						width={1125}
 						height={673}
@@ -244,7 +243,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(6).jpg"
 						width={1123}
 						height={742}
@@ -272,7 +271,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(7).jpg"
 						width={1123}
 						height={742}
@@ -316,7 +315,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(8).jpg"
 						width={1139}
 						height={938}
@@ -353,7 +352,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(10).jpg"
 						width={1065}
 						height={924}
@@ -390,7 +389,7 @@ export default function CodewarsIntro() {
 				</Heading>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(13).jpg"
 						width={863}
 						height={340}
@@ -423,7 +422,7 @@ export default function CodewarsIntro() {
 				</Text>
 
 				<Box maxW="800px" mx="auto" mb="10">
-					<NextImage
+					<Image
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(14).jpg"
 						width={1037}
 						height={469}
