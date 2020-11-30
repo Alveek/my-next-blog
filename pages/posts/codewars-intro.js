@@ -102,8 +102,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(2).jpg"
-						width="848px"
-						height="621px"
+						width={848}
+						height={621}
 						alt="Тестовая задача"
 					/>
 				</Box>
@@ -175,8 +175,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(3).jpg"
-						width="1506px"
-						height="474px"
+						width={1506}
+						height={474}
 						alt="Главная странца Codewars"
 					/>
 				</Box>
@@ -186,8 +186,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Untitled.jpg"
-						width="1120px"
-						height="695px"
+						width={1120}
+						height={695}
 						alt="Страница с задачи"
 					/>
 				</Box>
@@ -224,8 +224,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(15).jpg"
-						width="1125px"
-						height="673px"
+						width={1125}
+						height={673}
 						alt="Пример применения фильтра для поиска простых задач"
 					/>
 				</Box>
@@ -246,8 +246,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(6).jpg"
-						width="1123px"
-						height="742px"
+						width={1123}
+						height={742}
 						alt="Страница с описанием задачи"
 					/>
 				</Box>
@@ -274,8 +274,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(7).jpg"
-						width="1123px"
-						height="742px"
+						width={1123}
+						height={742}
 						alt="Страница задачи"
 					/>
 				</Box>
@@ -318,8 +318,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(8).jpg"
-						width="1139px"
-						height="938px"
+						width={1139}
+						height={938}
 						alt="Проверка решения"
 					/>
 				</Box>
@@ -355,8 +355,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(10).jpg"
-						width="1065px"
-						height="924px"
+						width={1065}
+						height={924}
 						alt="Страница других решений"
 					/>
 				</Box>
@@ -392,8 +392,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(13).jpg"
-						width="863px"
-						height="340px"
+						width={863}
+						height={340}
 						alt="Верхняя панель"
 					/>
 				</Box>
@@ -425,8 +425,8 @@ export default function CodewarsIntro() {
 				<Box maxW="800px" mx="auto" mb="10">
 					<NextImage
 						src="https://480402.selcdn.ru/links/posts/codewars-intro/Screenshot_(14).jpg"
-						width="1037px"
-						height="469px"
+						width={1037}
+						height={469}
 						alt="Страница статистики"
 					/>
 				</Box>
