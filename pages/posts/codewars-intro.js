@@ -3,6 +3,7 @@ import Head from "next/head";
 import {
 	Box,
 	Code,
+	Container,
 	Heading,
 	Link,
 	List,
@@ -20,7 +21,7 @@ export default function CodewarsIntro() {
 	const codeColor = "teal";
 
 	return (
-		<Box as="main">
+		<Container as="main" maxW="960px" px={{ base: 5, md: 8 }} py="10">
 			<Head>
 				<title>Codewars: обзор и рекомендации</title>
 				<meta
@@ -37,19 +38,14 @@ export default function CodewarsIntro() {
 				></meta>
 				<meta property="og:type" content="article"></meta>
 			</Head>
-			<Box
-				maxW="1080px"
-				px={{ base: 5, md: 8 }}
-				mx="auto"
-				py="10"
-				boxShadow="lg"
-			>
-				<Box>
+			<Box as="article">
+				{/*<Box>
 					<NextLink href="/">
 						<Link>На главную</Link>
 					</NextLink>
 				</Box>
-				<Heading as="h1" marginY={7} size="2xl" textAlign="center">
+				*/}
+				<Heading as="h1" mb={14} size="2xl" textAlign="center">
 					Codewars: обзор и рекомендации
 				</Heading>
 				<Text>
@@ -487,6 +483,6 @@ export default function CodewarsIntro() {
 
 				<Text>Успехов!</Text>
 			</Box>
-		</Box>
+		</Container>
 	);
 }

@@ -3,3 +3,14 @@
 .font-nerco {
 	font-family: "Nerko One", cursive;
 }
+
+.frosty-light {
+	/* background-color: rgba(255, 255, 255, 0.15); */
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: saturate(100%) blur(10px);
+}
+
+.frosty-dark {
+	background-color: rgba(255, 102, 179, 0.5);
+	backdrop-filter: saturate(100%) blur(10px);
+}

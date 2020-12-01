@@ -31,7 +31,7 @@ export default function DrawerExample() {
 				size="lg"
 				fontSize="46px"
 				onClick={onOpen}
-				display={{ base: "block", sm: "none" }}
+				display={{ base: "block", md: "none" }}
 				position="fixed"
 				bottom="20px"
 				right="20px"
@@ -46,8 +46,6 @@ export default function DrawerExample() {
 			>
 				<DrawerOverlay>
 					<DrawerContent borderTopLeftRadius="16px" borderTopRightRadius="16px">
-						{/* <DrawerCloseButton /> */}
-
 						<DrawerHeader>
 							<Flex justifyContent="space-between">
 								<NextLink mt={3} href="/">
