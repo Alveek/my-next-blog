@@ -56,7 +56,6 @@ export default function DrawerExample() {
 								<DarkModeBtn />
 							</Flex>
 						</DrawerHeader>
-
 						<DrawerBody>
 							<Text>Link 1</Text>
 							<Text>Link 2</Text>
