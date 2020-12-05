@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
 				as="main"
 				maxW="960px"
 				px={{ base: 5, md: 8 }}
-				minH="calc(100vh - 166px)"
+				minH={{ base: "calc(100vh - 60px)", md: "calc(100vh - 166px)" }}
 			>
 				<Head>
 					<meta name="yandex-verification" content="0499116b97024f38" />
