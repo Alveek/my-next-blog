@@ -17,7 +17,10 @@ export default function Home() {
 		<Box>
 			<Head>
 				<title>A.K. Notes - Хоум Пэйдж</title>
-				<meta name="description" content="Крутой сайт о том о сем"></meta>
+				<meta
+					name="description"
+					content="Сайт человека с инициалами А.К."
+				></meta>
 				<meta property="og:title" content=""></meta>
 				<meta property="og:description" content=""></meta>
 				<meta property="og:type" content="article"></meta>
@@ -42,6 +45,7 @@ export default function Home() {
 					Codewars: обзор и рекомендации
 				</Link>
 			</NextLink>
+			<p>My email: alveek@gmail.com</p>
 		</Box>
 	);
 }
