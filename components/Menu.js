@@ -33,8 +33,8 @@ export default function DrawerExample() {
 				onClick={onOpen}
 				display={{ base: "block", md: "none" }}
 				position="fixed"
-				bottom="20px"
-				right="20px"
+				bottom="60px"
+				right="10px"
 			>
 				Open
 			</IconButton>
@@ -45,7 +45,10 @@ export default function DrawerExample() {
 				finalFocusRef={btnRef}
 			>
 				<DrawerOverlay>
-					<DrawerContent borderTopLeftRadius="16px" borderTopRightRadius="16px">
+					<DrawerContent
+						borderTopLeftRadius="16px"
+						borderTopRightRadius="16px"
+					>
 						<DrawerHeader>
 							<Flex justifyContent="space-between">
 								<NextLink mt={3} href="/">

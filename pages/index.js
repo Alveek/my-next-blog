@@ -8,11 +8,29 @@ import {
 	Code,
 	Icon,
 	Container,
+	useToast,
 } from "@chakra-ui/react";
 import Menu from "../components/Menu";
 import { FaPencilAlt } from "react-icons/fa";
 
 export default function Home() {
+	let toast = useToast();
+
+	if (typeof window !== "undefined") {
+		if (localStorage.getItem("cookiesAccepted") != "true") {
+			toast({
+				title: "Cookies и всё такое...",
+				description:
+					"На этом сайте нет cookies, я даже не знаю как ими пользоваться",
+				status: "success",
+				duration: 9000,
+				isClosable: true,
+				position: "bottom-left",
+			});
+			localStorage.setItem("cookiesAccepted", "true");
+		}
+	}
+
 	return (
 		<Box>
 			<Head>
@@ -45,7 +63,6 @@ export default function Home() {
 					Codewars: обзор и рекомендации
 				</Link>
 			</NextLink>
-			<p>My email: alveek@gmail.com</p>
 		</Box>
 	);
 }
