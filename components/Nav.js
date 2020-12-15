@@ -39,7 +39,7 @@ export default function Nav() {
 							margin={0}
 							cursor="pointer"
 						>
-							A.K. Notes
+							Alex K.
 						</Text>
 					</NextLink>
 				</Flex>
