@@ -34,7 +34,7 @@ export default function Home() {
 	return (
 		<Box>
 			<Head>
-				<title>A.K. Notes - Хоум Пэйдж</title>
+				<title>Alex K. - хоум пэйдж</title>
 				<meta
 					name="description"
 					content="Сайт человека с инициалами А.К."
