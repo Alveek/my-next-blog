@@ -39,7 +39,7 @@ export default function Nav() {
 							margin={0}
 							cursor="pointer"
 						>
-							Alex K.
+							アレクセイ
 						</Text>
 					</NextLink>
 				</Flex>
