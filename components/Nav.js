@@ -39,7 +39,7 @@ export default function Nav() {
 							margin={0}
 							cursor="pointer"
 						>
-							アレクセイ
+							Блог А. Кудрявцева
 						</Text>
 					</NextLink>
 				</Flex>
