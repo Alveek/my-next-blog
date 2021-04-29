@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 				minH={{ base: "calc(100vh - 118px)", md: "calc(100vh - 130px)" }}
 			>
 				<Head>
-					<meta name="yandex-verification" content="" />
+					<meta name="yandex-verification" content="8b03e08675530a60" />
 					<script
 						dangerouslySetInnerHTML={{
 							__html: `
