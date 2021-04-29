@@ -34,26 +34,12 @@ export default function Home() {
 	return (
 		<Box>
 			<Head>
-				<title>Alex K. - хоум пэйдж</title>
-				<meta
-					name="description"
-					content="Сайт человека с инициалами А.К."
-				></meta>
+				<title>Хоум пэйдж</title>
+				<meta name="description" content="Блог Алексея Кудрявцева"></meta>
 				<meta property="og:title" content=""></meta>
 				<meta property="og:description" content=""></meta>
 				<meta property="og:type" content="article"></meta>
 			</Head>
-			<Heading
-				fontFamily="Nerko One"
-				fontWeight="400"
-				as="h1"
-				size="3xl"
-				textAlign="center"
-				mb="40px"
-				display={{ base: "block", md: "none" }}
-			>
-				A. K. Notes <Icon as={FaPencilAlt} />
-			</Heading>
 
 			<Heading as="h2" size="lg">
 				Статьи
