@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
 			<Container
 				as="main"
 				maxW="960px"
-				minH={{ base: "calc(100vh - 60px)", md: "calc(100vh - 166px)" }}
+				minH={{ base: "calc(100vh - 118px)", md: "calc(100vh - 130px)" }}
 			>
 				<Head>
 					<meta name="yandex-verification" content="" />
@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
 						}}
 					/>
 				</Head>
-				<Box mt={{ base: "10px", md: "116px" }} pb={8}>
+				<Box mt={{ base: "20px", md: "30px" }} pb={8}>
 					<Component {...pageProps} />
 				</Box>
 			</Container>

@@ -10,8 +10,6 @@ import {
 	Container,
 	useToast,
 } from "@chakra-ui/react";
-import Menu from "../components/Menu";
-import { FaPencilAlt } from "react-icons/fa";
 
 export default function Home() {
 	let toast = useToast();

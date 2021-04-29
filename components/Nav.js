@@ -21,46 +21,25 @@ export default function Nav() {
 			className={colorMode === "light" ? "frosty-light" : "frosty-dark"}
 			boxShadow="md"
 			zIndex="4"
-			// display={{ base: "none", md: "block" }}
 		>
 			<Container maxW="960px" py={0}>
-				<Flex justifyContent="space-between">
+				<Flex py={2} justifyContent="space-between">
 					<NextLink href="/">
 						<Text
 							as="a"
-							color="blue.900"
-							fontSize="4xl"
+							color="green.600"
+							fontSize="2xl"
 							margin={0}
 							cursor="pointer"
 							className="site-title-font"
-							display={{ base: "none", md: "block" }}
+							textTransform="uppercase"
+							// display={{ base: "none", md: "block" }}
 						>
-							Блог А. Кудрявцева
-						</Text>
-					</NextLink>
-					<NextLink href="/">
-						<Text
-							as="a"
-							color="blue.900"
-							fontSize="4xl"
-							margin={0}
-							cursor="pointer"
-							className="site-title-font"
-							display={{ base: "block", md: "none" }}
-						>
-							A. К.
+							Kudryavtsev
 						</Text>
 					</NextLink>
 				</Flex>
 			</Container>
-			{/* <IconButton
-				onClick={toggleColorMode}
-				aria-label="Dark mode"
-				icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-				position="fixed"
-				top="10px"
-				right="20px"
-			/> */}
 		</Box>
 	);
 }
