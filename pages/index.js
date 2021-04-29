@@ -1,15 +1,6 @@
 import Head from "next/head";
 import NextLink from "next/link";
-import {
-	Button,
-	Box,
-	Heading,
-	Link,
-	Code,
-	Icon,
-	Container,
-	useToast,
-} from "@chakra-ui/react";
+import { Box, Heading, Link, Text, useToast } from "@chakra-ui/react";
 
 export default function Home() {
 	let toast = useToast();
@@ -21,7 +12,7 @@ export default function Home() {
 				description:
 					"На этом сайте нет cookies, я даже не знаю как ими пользоваться",
 				status: "success",
-				duration: 9000,
+				duration: 6000,
 				isClosable: true,
 				position: "bottom-left",
 			});
@@ -43,8 +34,13 @@ export default function Home() {
 				Статьи
 			</Heading>
 			<NextLink href="/posts/codewars-intro">
-				<Link fontSize={{ base: "16px", md: "18px" }}>
+				<Link fontSize={{ base: "16px", md: "18px" }} display="block">
 					Codewars: обзор и рекомендации
+				</Link>
+			</NextLink>
+			<NextLink href="/posts/another-post">
+				<Link fontSize={{ base: "16px", md: "18px" }} display="block">
+					Another post
 				</Link>
 			</NextLink>
 		</Box>
