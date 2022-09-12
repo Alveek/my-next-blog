@@ -1,7 +1,6 @@
 import React from "react";
 import NextLink from "next/link";
 import { Flex, Text, useDisclosure } from "@chakra-ui/react";
-import DarkModeBtn from "./Darkmode";
 import { HiMenu } from "react-icons/hi";
 
 import {

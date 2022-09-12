@@ -1,4 +1,3 @@
-import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Head from "next/head";
 import {
 	Box,
@@ -59,7 +58,7 @@ export default function CodewarsIntro() {
 				Есть множество сайтов, где можно попрактиковаться в решении задач, но
 				здесь я расскажу о{" "}
 				<Link href="https://codewars.com" isExternal>
-					codewars.com <ExternalLinkIcon mx="2px" />
+					codewars.com
 				</Link>
 				. Стоит сразу отметить, что он англоязычный и все описания задач
 				соответсвенно на английском. У меня есть идея создать репозиторий с
@@ -133,7 +132,7 @@ export default function CodewarsIntro() {
 				<Text mb={0}>
 					(Если у вас еще нет аккаунта на{" "}
 					<Link href="https://github.com" isExternal>
-						<b>GitHub</b> <ExternalLinkIcon mx="2px" />
+						<b>GitHub</b>
 					</Link>
 					, очень рекомендую завести, поскольку вам не нужно будет впоследствии
 					постоянно регистрироваться на подобных сайтах - достаточно просто
@@ -289,7 +288,7 @@ export default function CodewarsIntro() {
 				его проверять, но я предпочитаю делать это в стороннем сервисе, таком
 				как{" "}
 				<Link href="https://repl.it" isExternal>
-					repl.it <ExternalLinkIcon mx="2px" />
+					repl.it
 				</Link>{" "}
 				(онлайн редактор кода). Это связано с тем, что когда на работе выпадает
 				свободная минутка и я могу порешать задачку, такие сервисы, как repl.it
